@@ -5,6 +5,8 @@
 This is the official implementation of AE TextSpotter, which introduces linguistic information to eliminate the ambiguity in text detection.
 This code is based on [MMDetection v1.0rc1](https://github.com/open-mmlab/mmdetection/tree/v1.0rc1).
 
+![demo image](demo/demo.jpg)
+
 ## Recommended environment
 ```
 Python 3.6+
@@ -70,8 +72,9 @@ The output of the evaluation script should be:
 
 ## Results and Models
 [TDA-ReCTS](https://github.com/whai362/TDA-ReCTS)
+
 | Method | Precision (%) | Recall (%) | F-measure (%) | 1-NED (%) | Model/Log |
-| - | - | - | - | - | - | - |
+| - | - | - | - | - | - |
 | AE TextSpotter | 84.94 | 78.10 | 81.37 | 51.51 | Todo. |
 
 
