@@ -153,9 +153,9 @@ def trans_gt_format(img_name, gt):
 
 
 def main():
-    cfg = mmcv.Config.fromfile('local_configs/debug.py')
+    cfg = mmcv.Config.fromfile('local_configs/rects_ae_textspotter_lm_r50_1x.py')
     gt_root = cfg.data.val.data_root + cfg.data.val.ann_file
-    preds = mmcv.load('tmp.json')
+    preds = mmcv.load('results.json')
 
     preds_bdd = []
     gts_bdd = []
