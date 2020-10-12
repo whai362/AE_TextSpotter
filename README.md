@@ -73,7 +73,7 @@ The output of the evaluation script should be:
 ## Results and Models
 [TDA-ReCTS](https://github.com/whai362/TDA-ReCTS)
 
-| Method | Precision (%) | Recall (%) | F-measure (%) | 1-NED (%) | Model/Log |
+| Method | Precision (%) | Recall (%) | F-measure (%) | 1-NED (%) | Model |
 | - | - | - | - | - | - |
 | AE TextSpotter | 84.94 | 78.10 | 81.37 | 51.51 | Todo. |
 
