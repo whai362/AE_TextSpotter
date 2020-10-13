@@ -5,7 +5,7 @@
 This is the official implementation of AE TextSpotter, which introduces linguistic information to eliminate the ambiguity in text detection.
 This code is based on [MMDetection v1.0rc1](https://github.com/open-mmlab/mmdetection/tree/v1.0rc1).
 
-![demo image](demo/demo.jpg)
+![demo image](resource/demo.jpg)
 
 ## Recommended environment
 ```
