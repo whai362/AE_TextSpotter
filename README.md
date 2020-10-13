@@ -33,6 +33,11 @@ data/ReCTS/
 ├── test
 │   ├── img
 ```
+Step3:
+Download and unzip [bert-base-chinese.zip](https://drive.google.com/file/d/1ufa3gl95Fpdd6duUqu6Fb3m85sbDRjpt/view?usp=sharing) in the root of this repository.
+```shell script
+unzip bert-base-chinese.zip
+```
 
 ## Training
 Step1:
@@ -42,11 +47,6 @@ tools/rects_dist_train.sh local_configs/rects_ae_textspotter_r50_1x.py 8
 Step2:
 ```shell script
 tools/rects_dist_train.sh local_configs/rects_ae_textspotter_lm_r50_1x.py 8
-```
-Step3:
-Download and unzip [bert-base-chinese.zip](https://drive.google.com/file/d/1ufa3gl95Fpdd6duUqu6Fb3m85sbDRjpt/view?usp=sharing) in the root of this repository.
-```shell script
-unzip bert-base-chinese.zip
 ```
 
 ## Test
