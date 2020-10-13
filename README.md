@@ -44,7 +44,7 @@ Step2:
 tools/rects_dist_train.sh local_configs/rects_ae_textspotter_lm_r50_1x.py 8
 ```
 Step3:
-Download and unzip [bert-base-chinese.zip](Todo) in the root of this repository.
+Download and unzip [bert-base-chinese.zip](https://drive.google.com/file/d/1ufa3gl95Fpdd6duUqu6Fb3m85sbDRjpt/view?usp=sharing) in the root of this repository.
 ```shell script
 unzip bert-base-chinese.zip
 ```
@@ -75,7 +75,7 @@ The output of the evaluation script should be:
 
 | Method | Precision (%) | Recall (%) | F-measure (%) | 1-NED (%) | Model |
 | - | - | - | - | - | - |
-| AE TextSpotter | 84.94 | 78.10 | 81.37 | 51.51 | Todo. |
+| AE TextSpotter | 84.94 | 78.10 | 81.37 | 51.51 | [Google Drive](https://drive.google.com/file/d/1VcYygCZYxZCY2ruuVOppQRVIds0Blb0a/view?usp=sharing) |
 
 
 ## License
