@@ -77,6 +77,10 @@ The output of the evaluation script should be:
 | - | - | - | - | - | - |
 | AE TextSpotter | 84.94 | 78.10 | 81.37 | 51.51 | [Google Drive](https://drive.google.com/file/d/1VcYygCZYxZCY2ruuVOppQRVIds0Blb0a/view?usp=sharing) |
 
+[ICDAR 2019 ReCTS](https://rrc.cvc.uab.es/?ch=12)
+
+Todo.
+
 
 ## License
 This project is released under the [Apache 2.0 license](LICENSE).
