@@ -91,3 +91,8 @@ If you use this work in your research, please cite us.
   year={2020}
 }
 ```
+
+## Other Projects:
+PAN (ICCV 2019): https://github.com/whai362/pan_pp.pytorch
+
+PSENet (CVPR 2019): https://github.com/whai362/PSENet
