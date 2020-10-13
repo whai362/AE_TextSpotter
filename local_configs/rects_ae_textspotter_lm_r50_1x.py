@@ -244,14 +244,6 @@ data = dict(
         cache_file='tda_rects_val_cache_file.json',
         char_dict_file=char_dict_file,
         pipeline=test_pipeline)
-    # test=dict(
-    #     type=dataset_type,
-    #     data_root=data_root,
-    #     ann_file=None,
-    #     img_prefix='test/img/',
-    #     cache_file='test_img_infos.json',
-    #     char_dict_file=char_dict_file,
-    #     pipeline=test_pipeline)
 )
 # optimizer
 optimizer = dict(type='SGD', lr=0.20, momentum=0.9, weight_decay=0.0001)
