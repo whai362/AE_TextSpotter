@@ -133,6 +133,7 @@ train_cfg = dict(
         mask_size=28,
         pos_weight=-1,
         debug=False))
+test_cfg=None
 # dataset settings
 dataset_type = 'ReCTSDataset'
 img_norm_cfg = dict(

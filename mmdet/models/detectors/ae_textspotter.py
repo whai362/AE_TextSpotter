@@ -312,20 +312,6 @@ class AE_TextSpotter(BaseDetector):
             x = self.extract_feat(img)
 
             # two-stream rpn
-            # rpn_outs = self.rpn_head(x)
-            # stage_num = len(rpn_outs[0])
-            # # character proposals
-            # char_rpn_outs = ([], [])
-            # for stage_i in range(stage_num):
-            #     char_rpn_outs[0].append(rpn_outs[2][stage_i])
-            #     char_rpn_outs[1].append(rpn_outs[3][stage_i])
-            # proposal_cfg = self.train_cfg.get('rpn_proposal', self.test_cfg.char_rpn)  # this place may have bug
-            # char_proposal_inputs = char_rpn_outs + (img_meta, proposal_cfg)
-            # char_proposal_list = self.rpn_head.get_bboxes(*char_proposal_inputs, type='char')
-
-            # text_proposal_list, char_proposal_list = self.simple_test_rpn(
-            #     x, img_meta, self.test_cfg.text_rpn, self.test_cfg.char_rpn) if proposals is None else proposals
-
             text_proposal_list, char_proposal_list = self.simple_test_rpn(
                 x, img_meta, self.train_cfg.text_rpn_proposal, self.train_cfg.char_rpn_proposal) \
                 if proposals is None else proposals

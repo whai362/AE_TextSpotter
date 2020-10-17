@@ -117,17 +117,17 @@ def prepare_char_dict(img_list_path):
 
 if __name__ == '__main__':
     # prepare img infos
-    # prepare_train_img_infos(osp.join(data_root, 'tda_rects_train_cache_file.json'),
-    #                         osp.join(data_root, 'TDA_ReCTS_train_list.txt'))
-    # prepare_train_img_infos(osp.join(data_root, 'tda_rects_val_cache_file.json'),
-    #                         osp.join(data_root, 'TDA_ReCTS_val_list.txt'))
+    prepare_train_img_infos(osp.join(data_root, 'tda_rects_train_cache_file.json'),
+                            osp.join(data_root, 'TDA_ReCTS_train_list.txt'))
+    prepare_train_img_infos(osp.join(data_root, 'tda_rects_val_cache_file.json'),
+                            osp.join(data_root, 'TDA_ReCTS_val_list.txt'))
     prepare_test_img_infos(osp.join(data_root, 'tda_rects_test_cache_file.json'))
 
-    # # # combine img infos
-    # img_infos = mmcv.load(osp.join(data_root, 'tda_rects_train_cache_file.json')) + \
-    #             mmcv.load(osp.join(data_root, 'tda_rects_val_cache_file.json'))
-    # with open(osp.join(data_root, 'train_cache_file.json'), 'w') as f:
-    #     mmcv.dump(img_infos, f, file_format='json', ensure_ascii=False)
-    #
-    # # # prepare char dict
-    # prepare_char_dict(osp.join(data_root, 'TDA_ReCTS_train_list.txt'))
+    # # combine img infos
+    img_infos = mmcv.load(osp.join(data_root, 'tda_rects_train_cache_file.json')) + \
+                mmcv.load(osp.join(data_root, 'tda_rects_val_cache_file.json'))
+    with open(osp.join(data_root, 'train_cache_file.json'), 'w') as f:
+        mmcv.dump(img_infos, f, file_format='json', ensure_ascii=False)
+
+    # # prepare char dict
+    prepare_char_dict(osp.join(data_root, 'TDA_ReCTS_train_list.txt'))
