@@ -13,7 +13,7 @@ from .rects import ReCTSDataset
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'VOCDataset',
-    'CityscapesDataset', 'IcdarDataset', 'SynthDataset', 'GroupSampler',
+    'CityscapesDataset', 'ReCTSDataset', 'GroupSampler',
     'DistributedGroupSampler', 'build_dataloader', 'ConcatDataset', 'RepeatDataset',
     'ExtraAugmentation', 'WIDERFaceDataset', 'DATASETS', 'build_dataset'
 ]
